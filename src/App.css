@@ -1,0 +1,95 @@
+.app {
+  padding: 50px  160px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  flex-wrap: wrap;
+  position: absolute;
+}
+.shimmerBlocks{
+  padding: 50px  160px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+/* .react-image-picker-container:hover .react-image-picker-upload-btn {
+  display: none !important;
+}
+.react-image-picker-editor .upload-icon {
+  display: none;
+} */
+
+/* .asdf .material-icons:nth-child(1){
+  display: none;
+} */
+.image-caption{
+  display: none;
+} 
+.curtain button:first-child,.curtain button:first-child:hover{
+  display: none;
+  visibility: hidden;
+} 
+.curtain button:first-child{
+  position: relative;
+  top: 250px;
+}
+.curtain{
+  display: none;
+  visibility: hidden;
+}
+/* div > .icon-btn:first-child{
+  display: none;
+  visibility: hidden;
+  background-color: aqua;
+  
+} */
+/* div > .image-upload-btn{
+  display: none;
+} */
+.image-upload-btn > span{
+  display: none;
+}
+.place-image{
+  position: relative;
+}
+.icon-btn > span{
+  position: absolute;
+  top: 60px;
+  right: 30px;
+  color: brown;
+  width: 50px;
+  border: 2px solid white;
+}
+
+.icon-btn > span::after{
+  transition: none;
+  transform: none;
+}
+button#edit-img {
+  position: relative;
+  top:-40px;
+  left:20px;
+} 
+ span.material-icons {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+#popup > div > button{
+  position: relative;
+  top: 0px;
+  left: 10px;
+}
+button[title="Cut the image"] {  position: relative;
+}
+button[title="Cut the image"]  > span.material-icons {
+  position: absolute;
+  right: -40px;
+  top: 0px;
+  margin-bottom: 50px;
+}
+/* span.material-icons {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+} */
